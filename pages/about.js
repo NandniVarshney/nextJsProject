@@ -8,7 +8,7 @@ export default function AboutPage() {
         <div>
             <h1>ABOUT</h1>
             <Link href='/'>Home</Link>
-            <button onClick={()=>{router.push('/')}}>back to home</button>
+            <button onClick={()=>{router.push('/')}}>back to home</button> //routing
         </div>
     )
 }
