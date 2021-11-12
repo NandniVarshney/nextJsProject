@@ -1,8 +1,11 @@
+import Layout from "../components/layout"
 export default function index() {
     return (
-        <div>
-            <h1>Main events page</h1>
-        </div>
+        <Layout title='Event-DJ'>
+            <div>
+                <h1>Main page</h1>
+            </div>
+        </Layout>
     )
 }
 
